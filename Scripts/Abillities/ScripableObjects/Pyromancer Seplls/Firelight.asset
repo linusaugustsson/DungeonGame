@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f9a2d2e0fec3074499e95b8772158af, type: 3}
+  m_Name: Firelight
+  m_EditorClassIdentifier: 
+  abilityName: Firelight
+  castTime: 1
+  cooldownTime: 5
+  activeTime: 0
+  activeInterval: 0
+  requireStandingStill: 0
+  useSimpleActivationLogic: 1
+  abilityActivationObject: {fileID: 1207004046190335489, guid: 7bbe0efe520dde647898df4f539d5c61, type: 3}
+  abilityActivationOffset: {x: 0, y: 0.35, z: 0.3}
+  icon: {fileID: 21300000, guid: 69dc7e71520572d4fa5855f24227df36, type: 3}
+  castSFX: {fileID: 0}
+  castingVisualEffect: {fileID: 8795475039530420908, guid: c855b38f155d56d4ea55dd17611e3453, type: 3}
+  activateVFX: {fileID: 0}
+  activateVFXOffset: {x: 0, y: 0, z: 0}
+  activeVFXLifeTime: 0
+  activeVFXlifeTimeValue: 0

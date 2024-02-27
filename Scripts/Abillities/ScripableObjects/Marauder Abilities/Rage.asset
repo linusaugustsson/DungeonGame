@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df34d886c75cefb45a8085611cf43df5, type: 3}
+  m_Name: Rage
+  m_EditorClassIdentifier: 
+  abilityName: Rage
+  castTime: 0
+  cooldownTime: 20
+  activeTime: 12
+  activeInterval: 1
+  requireStandingStill: 0
+  icon: {fileID: 21300000, guid: 949f52ab26cd9ee458cb53381e30494a, type: 3}
+  castSFX: {fileID: 8300000, guid: ccb1784e341006f41a010d75e1f529c5, type: 3}
+  castingVisualEffect: {fileID: 0}
+  activateVFX: {fileID: 2263796628725655823, guid: 579be9fc99d602c40b121e992edad760, type: 3}
+  activateVFXOffset: {x: 0, y: 0.25, z: 0}
+  activeVFXLifeTime: 2
+  activeVFXlifeTimeValue: 5
+  damageReduction: 0.5

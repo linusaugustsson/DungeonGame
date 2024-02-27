@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cb386e391d55b944b26e75981cb0aae, type: 3}
+  m_Name: Sprint
+  m_EditorClassIdentifier: 
+  abilityName: Sprint
+  castTime: 0
+  cooldownTime: 15
+  activeTime: 3
+  activeInterval: 0
+  icon: {fileID: 21300000, guid: 8d00b2ebb59231041ac3715f85233908, type: 3}
+  castSFX: {fileID: 8300000, guid: 2371fb18dcd858d4aa70a9d5998e04de, type: 3}
+  activateVFX: {fileID: 0}
+  newMovementSpeed: 3.75

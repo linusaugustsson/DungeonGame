@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d08cc70872a0a3641b2f93652c29c091, type: 3}
+  m_Name: Paladin
+  m_EditorClassIdentifier: 
+  className: Paladin
+  description: Oh so holy!
+  classViewSprite: {fileID: -659581432, guid: 536f9f2504525134cba1847803d9b1be, type: 3}
+  defaultWeapon: {fileID: 11400000, guid: 6675fd4d4ac77f94689a1c5e049d1428, type: 2}
+  nrOfAbilitySlots: 3
+  avalibleClassAbilities:
+  - {fileID: 11400000, guid: 83c437fca031811469d9f36224512c5b, type: 2}
+  - {fileID: 11400000, guid: 6279608f69bdba842bb3c7f269d8b67d, type: 2}
+  - {fileID: 11400000, guid: b61ead6568781f245a39c46e86fa8b47, type: 2}
+  - {fileID: 11400000, guid: 489849821eae68f47910d8777b4f173f, type: 2}
+  - {fileID: 11400000, guid: 17e8191a026efaa4e9dbefeca87ffacf, type: 2}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ea81efc9cfd0a149abdf3db80b93cc1, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  weaponType: {fileID: 11400000, guid: 8e31ef18096dd1e4b95400f395f0e3b3, type: 2}
+  width: 3
+  reach: 2
+  baseDamage: 50
+  attackDuration: 0.22222
+  cooldown: 2
+  parryDuration: 0.6
+  parryTransitionTime: 0.1
+  parryCooldown: 0.6
+  viewModelSprite: {fileID: 0}
+  parryRotation: {x: 2.39, y: 15.83, z: -20.1}
+  parryPosition: {x: -0.03, y: 0.47, z: 0.238}
+  worldModelSprite: {fileID: 0}

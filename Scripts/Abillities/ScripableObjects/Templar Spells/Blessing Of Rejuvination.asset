@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf8e62b2ed8643b4092c024daa11a496, type: 3}
+  m_Name: Blessing Of Rejuvination
+  m_EditorClassIdentifier: 
+  abilityName: Blessing of Rejuvination
+  castTime: 5
+  cooldownTime: 30
+  activeTime: 30
+  activeInterval: 1
+  requireStandingStill: 1
+  icon: {fileID: 21300000, guid: 32621b9f84e2b0a45b7235770ed5d193, type: 3}
+  castSFX: {fileID: 8300000, guid: f805c1c08930dfe469365df4082c95a9, type: 3}
+  castingVisualEffect: {fileID: 9163369878414620607, guid: 3b6718e529291c94eaec1b60f9323d7a, type: 3}
+  activateVFX: {fileID: 4759599575820120707, guid: af3cb1caf1f52654ebd7be5fcb1b4ca3, type: 3}
+  activateVFXOffset: {x: 0, y: 0.5, z: 0}
+  activeVFXLifeTime: 1
+  activeVFXlifeTimeValue: 0
+  healAmount: 3

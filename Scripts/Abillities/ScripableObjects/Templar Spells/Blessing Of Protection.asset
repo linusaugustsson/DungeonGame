@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bb7066b34ce094418b6ff6a24211135, type: 3}
+  m_Name: Blessing Of Protection
+  m_EditorClassIdentifier: 
+  abilityName: Blessing of Protection
+  castTime: 5
+  cooldownTime: 30
+  activeTime: 30
+  activeInterval: 1
+  requireStandingStill: 1
+  icon: {fileID: 21300000, guid: 9f21bac1054fe254dab27ab19b1be1d9, type: 3}
+  castSFX: {fileID: 8300000, guid: f805c1c08930dfe469365df4082c95a9, type: 3}
+  castingVisualEffect: {fileID: 8070931822345619663, guid: 7cafb4e31fec87246851d3f11fd79ddf, type: 3}
+  activateVFX: {fileID: 6991017734319898817, guid: 4d31d61924b4f3942bce31209f7bd502, type: 3}
+  activateVFXOffset: {x: 0, y: 0.5, z: 0}
+  activeVFXLifeTime: 1
+  activeVFXlifeTimeValue: 0

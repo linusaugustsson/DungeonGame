@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75df01750f09e714a93b8dee4f5f6ce6, type: 3}
+  m_Name: Ignore Pain
+  m_EditorClassIdentifier: 
+  abilityName: Ignore Pain
+  castTime: 0
+  cooldownTime: 30
+  activeTime: 10
+  activeInterval: 0.5
+  requireStandingStill: 0
+  icon: {fileID: 21300000, guid: f26680f9e3e1c3945a795f5da3a4bacd, type: 3}
+  castSFX: {fileID: 8300000, guid: d3f64bcb769d5ea43b3a4527f7b81d97, type: 3}
+  castingVisualEffect: {fileID: 0}
+  activateVFX: {fileID: 6751319151915718164, guid: 8c51730718948b940acc1858f85e32b2, type: 3}
+  activateVFXOffset: {x: 0, y: 0.5, z: 0}
+  activeVFXLifeTime: 1
+  lifeTimeValue: 0
+  healAmount: 5

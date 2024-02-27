@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29027f79c2bb2f5449a28a180a139752, type: 3}
+  m_Name: Fireball
+  m_EditorClassIdentifier: 
+  abilityName: Fireball
+  castTime: 0.7
+  cooldownTime: 3
+  activeTime: 0
+  activeInterval: 0
+  requireStandingStill: 0
+  abilityActivationObject: {fileID: 3071473936755505367, guid: 6d769c9152a5caa489984b6397152288, type: 3}
+  abilityActivationOffset: {x: 0, y: 0.35, z: 0.3}
+  icon: {fileID: 21300000, guid: d9707fd27d5821f488d1511d2b91d91f, type: 3}
+  castSFX: {fileID: 8300000, guid: f805c1c08930dfe469365df4082c95a9, type: 3}
+  castingVisualEffect: {fileID: 1613509022594991090, guid: 8159211abba352546932d9b0bff64f4a, type: 3}
+  activateVFX: {fileID: 0}
+  activateVFXOffset: {x: 0, y: 0, z: 0}
+  activeVFXLifeTime: 0
+  activeVFXlifeTimeValue: 0

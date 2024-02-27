@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d08cc70872a0a3641b2f93652c29c091, type: 3}
+  m_Name: Barbarian
+  m_EditorClassIdentifier: 
+  className: Barbarian
+  description: Chop chop, axe axe.
+  classViewSprite: {fileID: -659581432, guid: 536f9f2504525134cba1847803d9b1be, type: 3}
+  defaultWeapon: {fileID: 11400000, guid: 6675fd4d4ac77f94689a1c5e049d1428, type: 2}
+  nrOfAbilitySlots: 3
+  avalibleClassAbilities:
+  - {fileID: 11400000, guid: 4fdea2c1dd535b94993194fedc6edb02, type: 2}
+  - {fileID: 11400000, guid: d0f5a4774231a4246bc06806b30a539a, type: 2}
+  - {fileID: 11400000, guid: eb70f9b30c57aa1469094658d57933c7, type: 2}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521ee509180541847b0df297c3ff1, type: 3}
+  m_Name: Hellfire Blast
+  m_EditorClassIdentifier: 
+  abilityName: Hellfire Blast
+  castTime: 0
+  cooldownTime: 5
+  activeTime: 0
+  activeInterval: 0
+  requireStandingStill: 0
+  useSimpleActivationLogic: 1
+  abilityActivationObject: {fileID: 5750054120967746629, guid: 19933957b8077d1449b278ae40d20b76, type: 3}
+  abilityActivationOffset: {x: 0, y: 0.5, z: 1.25}
+  icon: {fileID: 21300000, guid: f8f2d217ba9b53f4eb0824a7969b8587, type: 3}
+  castSFX: {fileID: 8300000, guid: d3f64bcb769d5ea43b3a4527f7b81d97, type: 3}
+  castingVisualEffect: {fileID: 0}
+  activateVFX: {fileID: 0}
+  activateVFXOffset: {x: 0, y: 0, z: 0}
+  activeVFXLifeTime: 0
+  activeVFXlifeTimeValue: 0
